@@ -195,7 +195,7 @@ footer .container{
     list-style: none;
 }
 
-@media screen and (max-width:520px{
+@media screen and (max-width: 520px) {
     .menu-btn {
         display: block;
     }
@@ -209,12 +209,11 @@ footer .container{
         height: 100vh;
         padding-top: 80px;
         transition: all 0.3s ease;
-
     }
-    .nav-list.active{
+    .nav-list.active {
         right: 0;
     }
-    .nav-list li :not(:last-child) {
+    .nav-list li:not(:last-child) {
         text-align: left;
         width: 100%;
         padding: 10px 30px;
@@ -229,3 +228,4 @@ footer .container{
         gap: 16px;
     }
 }
+
